@@ -13,6 +13,10 @@
 		ED7E6005258BE9BB00B4417F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7E5FF0258BE9BA00B4417F /* ContentView.swift */; };
 		ED7E6006258BE9BB00B4417F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7E5FF1258BE9BB00B4417F /* Assets.xcassets */; };
 		ED7E6007258BE9BB00B4417F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7E5FF1258BE9BB00B4417F /* Assets.xcassets */; };
+		ED7E6013258BEA4000B4417F /* FontItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7E6012258BEA4000B4417F /* FontItem.swift */; };
+		ED7E6014258BEA4000B4417F /* FontItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7E6012258BEA4000B4417F /* FontItem.swift */; };
+		ED7E6018258BEA6B00B4417F /* FontList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7E6017258BEA6B00B4417F /* FontList.swift */; };
+		ED7E6019258BEA6B00B4417F /* FontList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7E6017258BEA6B00B4417F /* FontList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,9 @@
 		ED7E5FFE258BE9BB00B4417F /* FontList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7E6000258BE9BB00B4417F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED7E6001258BE9BB00B4417F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		ED7E6012258BEA4000B4417F /* FontItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontItem.swift; sourceTree = "<group>"; };
+		ED7E6017258BEA6B00B4417F /* FontList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontList.swift; sourceTree = "<group>"; };
+		ED7E601C258BEE5700B4417F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 		ED7E5FE9258BE9BA00B4417F = {
 			isa = PBXGroup;
 			children = (
+				ED7E601C258BEE5700B4417F /* README.md */,
 				ED7E5FEE258BE9BA00B4417F /* Shared */,
 				ED7E5FF8258BE9BB00B4417F /* iOS */,
 				ED7E5FFF258BE9BB00B4417F /* macOS */,
@@ -60,6 +68,8 @@
 				ED7E5FEF258BE9BA00B4417F /* FontListApp.swift */,
 				ED7E5FF0258BE9BA00B4417F /* ContentView.swift */,
 				ED7E5FF1258BE9BB00B4417F /* Assets.xcassets */,
+				ED7E6012258BEA4000B4417F /* FontItem.swift */,
+				ED7E6017258BEA6B00B4417F /* FontList.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -187,6 +197,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED7E6018258BEA6B00B4417F /* FontList.swift in Sources */,
+				ED7E6013258BEA4000B4417F /* FontItem.swift in Sources */,
 				ED7E6004258BE9BB00B4417F /* ContentView.swift in Sources */,
 				ED7E6002258BE9BB00B4417F /* FontListApp.swift in Sources */,
 			);
@@ -196,6 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED7E6019258BEA6B00B4417F /* FontList.swift in Sources */,
+				ED7E6014258BEA4000B4417F /* FontItem.swift in Sources */,
 				ED7E6005258BE9BB00B4417F /* ContentView.swift in Sources */,
 				ED7E6003258BE9BB00B4417F /* FontListApp.swift in Sources */,
 			);

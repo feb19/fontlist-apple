@@ -11,7 +11,7 @@ import SwiftUI
 struct FontListApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(fontlist: FontList())
         }
     }
 }
