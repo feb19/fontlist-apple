@@ -5,7 +5,6 @@ UIFont.familyNames.forEach {
     print("\($0)")
     UIFont.fontNames(forFamilyName: $0).forEach {
         print(" - \($0)")
-        allFonts.append(FontData(fontName: $0))
     }
 }
 ```
